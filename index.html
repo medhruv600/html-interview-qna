@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML INTERVIEW QNA</title>
+</head>
+
+<body>
+    <u>
+        <h1>HTML INTERVIEW QNA</h1>
+    </u>
+    <strong>1. Difference between div and span?</strong>
+    <p><b>&#8594;</b>
+        &lt;div&gt; tag stands for division tag and it is block-level element means it is bound to take the whole width
+        of the screen. <br> <br>
+        &lt;span&gt; tag is an inline element means it only takes the space that is required for it. It is used for
+        grouping inline elements in the HTML documents. <br> <br>
+        Div should be used to wrap sections of a document, while spans should be used to wrap small portions of text,
+        images, etc.
+
+    </p> <br>
+
+    <strong>2. Difference between class and IDs?</strong>
+    <p><b>&#8594;</b>
+        In HTML, the only difference between class and ID is that IDs are unique and each element can have only one ID.
+        On the otherhand classes are not unique we can use same class on multiple elements. <br>
+    <ul>
+        <li>IDs: Each page can have only one element with that ID.</li>
+        <li>CLASS: You can use multiple classes on the same element.</li>
+    </ul>
+    </p> <br>
+
+    <strong>3. What are self-closing tags?</strong>
+    <p><b>&#8594;</b>
+        In HTML, A self-closing tag is a type of tag that need not to be closed by closing tag, which means there is no
+        separate closing tag for it as &lt;/tag&gt;. <br> <br>
+        Elements that don't have any content are called <b>empty elements.</b> <br> <br>
+
+        <b>&lt;br&gt;</b> is an <b>empty element</b> without a closing tag (the <b>&lt;br&gt;</b> tag defines a line
+        break). <br>
+        Empty elements can be <b>"closed"</b> in the opening tag like this: &lt;br/&gt;. <br><br>
+
+        Example: &lt;img/&gt; , &lt;input/&gt; , &lt;br/&gt;.
+    </p> <br>
+
+    <strong>4. How many types of heading tags are there? How to decide which to use where?</strong>
+    <p><b>&#8594;</b>
+        Heading tags are titles or subtitles that we want to display on our webpage. <br>
+        There are <u><b>six</b></u> levels of heading tags are there in HTML.
+
+    </p> <br>
+
+    <strong>5. Difference between block and inline?</strong>
+    <p><b>&#8594;</b>
+        A block element always begins on a new line and extends to left and right, and it takes the full width available
+        on the webpage. Browsers automatically add some space(margin) before and after element. <br> <br>
+
+        Examples of block elements are &lt;div&gt;, &lt;p&gt;, &lt;h1&gt;to&lt;h6&gt;, &lt;table&gt; and &lt;form&gt;
+        etc. <br> <br>
+
+        An inline element does not begin on a new line. It only takes the space that is necessary for it. <br> <br>
+
+        Examples of inline elements are &lt;a&gt;, &lt;span&gt;, &lt;img&gt;, &lt;input&gt;, &lt;label&gt; etc.
+
+    </p> <br>
+
+    <strong>6. Difference between &lt;em&gt; and &lt;strong&gt;?</strong>
+    <p><b>&#8594;</b>
+        The &lt;strong&gt; and &lt;em&gt; tags are used for emphasizing parts of a text. <br> <br>
+        The &lt;strong&gt; tag should be used to indicate strong importance, or urgency, like to indicate key phrases in
+        a text for someone skimming it. <br> <br>
+        The &lt;em&gt; tag should be used to represent stress emphasis, like when you'd read the emphasized text in a
+        different tone of voice. Both tags can be used together, where it makes sense.
+
+    </p> <br>
+
+    <strong>7. What are Attributes?</strong>
+    <p><b>&#8594;</b>
+        In HTML, Attributes are special words which provide additional information about the elements and are the
+        modifiers of HTML element. <br> <br>
+        Attributes should be written in lowercase only as they are case sensitive. It should always be applied with its
+        name and value pair. <br> <br>
+        It should always be applied with the start tag, we can add multiple attributes to an element by giving space
+        between two attributes.
+
+    </p> <br>
+
+    <strong>8. Difference between HTML Tags and Elements?</strong>
+    <p><b>&#8594;</b>
+        HTML tags- Tags are the starting and ending part of an HTML element. They begin with “&lt;” symbol and end with
+        “&gt;”.
+        Whatever written inside < and> are called tags. For instance: -- &lt;b&gt;&lt;/b&gt; <br> <br>
+            <b>&#8594;</b>HTML elements – Elements enclose the contents in between the tags. They consist of some kind
+            of structure. It generally consists of a start tag, content and end tag. For instance: --
+            &lt;b&gt;Content&lt;/b&gt;
+
+    </p> <br>
+
+    <strong>9. Explain &lt;br /&gt; tag?</strong>
+    <p><b>&#8594;</b>
+        The &lt;br&gt; tag in HTML document is used to create a line break in a text. It is an empty tag which means it
+        does not need end tag like &lt;/br&gt;. <br> <br>
+        It is generally used in poem and address where the division of line is necessary.
+
+    </p> <br>
+
+    <h2>Implementation Questions</h2>
+
+    <strong>1. Write code to create an ordered list with roman numbers.<br> <br> Code:-</strong> <br>
+
+    <h5>
+
+        &lt;ol type="I"&gt; <br> <br>
+
+        &lt;li&gt;Apple&lt;/li&gt; <br>
+
+        &lt;li&gt;Orange&lt;/li&gt; <br>
+
+        &lt;li&gt;Banana&lt;/li&gt; <br>
+
+        &lt;/ol&gt;
+
+    </h5>
+
+    <strong>Output:-</strong> <br>
+
+    <ol type="I">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ol> <br>
+
+    <strong>2. Write code to create an unordered list with circle.<br> <br> Code:-</strong> <br>
+
+    <h5>
+
+        &lt;ul type="circle"&gt; <br> <br>
+
+        &lt;li&gt;First&lt;/li&gt; <br>
+
+        &lt;li&gt;Second&lt;/li&gt; <br>
+
+        &lt;li&gt;Third&lt;/li&gt; <br> <br>
+
+        &lt;/ul&gt;
+
+    </h5>
+
+    <strong>Output:-</strong> <br>
+
+    <ul type="circle">
+        <li>Front-end Engineer</li>
+        <li>Back-end Engineer</li>
+        <li>Full Stack Engineer</li>
+    </ul>
+
+    <strong>3. Write a code to create a link to <a href="https://www.prepbytes.com">https://www.prepbytes.com<br>
+            &#8594;</a>
+    </strong>
+    &lt;a href=“<a href="https://www.prepbytes.com">https://www.prepbytes.com</a>”&gt;Prepbytes&lt;/a&gt; <br> <br>
+
+    <h1>Link to go to Prepbytes</h1>
+    <h2><a href="https://www.prepbytes.com">PrepBytes</a></h2>
+
+
+    <strong>4. Write a code to insert an image.</strong>
+    <p><b>&#8594;</b>
+        &nbsp;&lt;img src=address of the link” /&gt;
+
+    </p> <br>
+
+    <img src="./assets/image/prepbytes.png" alt="404 error"> <br> <br>
+
+
+    <strong>5. Write a HTML code to create 2*2 : Table column should be name and salary, provide two entries for
+        this.</strong> <br>
+
+    <h5>
+        <font color="brown">
+
+            &lt;table border="1"&gt; <br>
+            &lt;tr&gt; <br>
+            &lt;td&gt;Name:-&lt;/td&gt; <br>
+            &lt;td&gt;John&lt;/td&gt; <br>
+            &lt;td&gt;David&lt;/td&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;tr&gt; <br>
+            &lt;td&gt;Salary:-&lt;/td&gt; <br>
+            &lt;td&gt;30K&lt;/td&gt; <br>
+            &lt;td&gt;40K&lt;/td&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;/table&gt;
+
+        </font>
+    </h5> <br>
+
+    <table border="1" cellspacing="0" width="510">
+        <tr>
+            <th>Name:</th>
+            <td>Radhe</td>
+            <td>Shyam</td>
+        </tr>
+
+        <tr>
+            <th>Salary:</th>
+            <td>15k</td>
+            <td>20k</td>
+        </tr>
+    </table> <br><br>
+
+    <strong>6. Create a form that contain input fields like name, age, email and contact.</strong> <br>
+
+    <h5>
+        <font color="brown">
+
+            &lt;from action="#"&gt; <br>
+            &lt;label for="name"&gt;Name:&lt;/label&gt; <br>
+            &lt;input type="text" name="name" id="name"&gt;&lt;br&gt;&lt;br&gt; <br> <br>
+            &lt;label for="email"&gt;Email:&lt;/label&gt; <br>
+            &lt;input type="email" name="email" id="name"&gt;&lt;br&gt;&lt;br&gt; <br> <br>
+            &lt;label for="age"&gt;Age:&nbsp;&lt;/label&gt; <br>
+            &lt;input type="number" name="age" id="name"&gt;&lt;br&gt;&lt;br&gt; <br> <br>
+            &lt;label for="contact"&gt;Contact:&lt;/label&gt; <br>
+            &lt;input type="tel" name="contact" id="contact"&gt;&lt;br&gt;&lt;br&gt; <br> <br>
+            &lt;/form&gt;
+
+        </font>
+    </h5> <br>
+
+    <form>
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name"><br><br>
+
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="name"><br><br>
+
+        <label for="age">Age :</label>
+        <input type="number" name="age" id="name"><br><br>
+
+        <label for="contact">Contact :</label>
+        <input type="tel" name="contact" id="contact"><br><br>
+
+    </form> <br>
+
+    <strong>7. Create a table and explain how to achieve colspan?</strong> <br>
+
+    <h5>
+        <font color="brown">
+
+            &lt;table border="1"> <br>
+            &lt;tr&gt; <br>
+            &lt;th&gt;Name&lt;/th&gt; <br>
+            &lt;th colspan="2">Designation&lt;/th&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;tr&gt; <br>
+            &lt;td&gt;Rohan&lt;/td&gt; <br>
+            &lt;td&gt;Front-end Dev&lt;/td&gt; <br>
+            &lt;td&gt;Backend Dev&lt;/td&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;tr&gt; <br>
+            &lt;td&gt;Vihan&lt;/td&gt; <br>
+            &lt;td&gt;Front-end Dev&lt;/td&gt; <br>
+            &lt;td>Backend Dev&lt;/td7&gt; <br>
+            &lt;/tr&gt; <br>
+            &lt;/table&gt; <br> <br> <br>
+
+        </font>
+    </h5>
+
+    <h3>Table with colspan</h3>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Designation</th>
+        </tr>
+        <tr>
+            <td>Rohan</td>
+            <td>Front-end Dev</td>
+            <td>Backend Dev</td>
+        </tr>
+        <tr>
+            <td>Vihan</td>
+            <td>Front-end Dev</td>
+            <td>Backend Dev</td>
+        </tr>
+    </table> <br>
+
+    <h3>Radio Button</h3>
+
+    <input type="radio" value="MERN" name="course" id="course">
+    <label for="course">MERN</label>
+    <input type="radio" value="MEAN" name="course" id="course">
+    <label for="course">MEAN</label> <br>
+
+    <h3>Check Box</h3>
+
+    <input type="checkbox" value="HTML" name="technology-1" id="technology">
+    <label for="technology">HTML</label>
+
+    <input type="checkbox" value="CSS" name="technology-2" id="technology">
+    <label for="technology">CSS</label>
+
+    <input type="checkbox" value="React" name="technology-3" id="technology">
+    <label for="technology">React</label>
+
+    <input type="checkbox" value="Node" name="technology-4" id="technology">
+    <label for="">Node</label> <br> <br> <br>
+
+    <table border="1" cellspacing="0" width="510">
+        <tr>
+            <td>Radio</td>
+            <td>Checkbox</td>
+        </tr>
+        <tr>
+            <td>It is used when only one option to be <br> selected out of several available <br> options.</td>
+            <td>Checkbox allow one or many options <br> to be selected.</td>
+        </tr>
+        <tr>
+            <td>Radio button is presented as small <br> circle on the screen.</td>
+            <td>Checkbox is presented as small square <br> box on the screen.</td>
+        </tr>
+        <tr>
+            <td>It is used when you want to limit the <br> user’s choice to just one option from <br> the range provided
+            </td>
+            <td>It is used when you want to allow user <br> to select multiple options.</td>
+        </tr>
+        <tr height="30">
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
